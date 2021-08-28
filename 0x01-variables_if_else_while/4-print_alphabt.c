@@ -13,7 +13,7 @@ q = 'q';
 
 for (alpha = 'a'; alpha <= 'z'; alpha++)
 {
-if (low != e && alpha != q)
+if (alpha != e && alpha != q)
 putchar(alpha);
 }
 printf("\n");

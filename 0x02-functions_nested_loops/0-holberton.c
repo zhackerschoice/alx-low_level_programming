@@ -7,12 +7,7 @@
  */
 int main(void)
 {
-char holberton[9] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
-unsigned int alpha;
-for (alpha = 0; alpha < sizeof(holberton); alpha++)
-{
-_putchar(holberton[alpha]);
-}
+_putchar('_putchar')
 _putchar('\n');
 return (0);
 }

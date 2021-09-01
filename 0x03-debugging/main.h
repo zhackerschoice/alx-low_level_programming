@@ -3,6 +3,6 @@
 
 #include <stdio.h>
 
-void largest_number(int i);
+void largest_number(largest);
 
 #endif /* HOLBERTON_H */

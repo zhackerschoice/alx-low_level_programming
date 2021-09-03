@@ -14,7 +14,7 @@ if (n != 2 && n != 4)
 {
 _putchar(n);
 }
-n++
+n++;
 }
 _putchar('\n');
 }

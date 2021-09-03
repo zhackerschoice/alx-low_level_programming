@@ -10,11 +10,10 @@ char n;
 char nn = '0';
 char nnn[2] = {'1', '0'};
 char nnnn[2] = {'1', '4'};
-for (n = '0'; n <= nnn; n++)
-while (nn <= nnnn)
+for (n = '0'; n <= nnn[2]; n++)
+while (nn <= nnnn[2])
 {
-_putchar(i);
-return(0);
+_putchar(n);
 }
-_putchar('\n')
+_putchar('\n');
 }

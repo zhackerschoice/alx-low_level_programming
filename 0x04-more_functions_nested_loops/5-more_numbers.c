@@ -1,20 +1,25 @@
 #include "main.h"
-
 /**
- * more_numbers - print 10 times
- * Return: loop nums except 2 and 4.
+ * more_numbers - function that checks for uppercase character
+ * Return: 0
  */
 void more_numbers(void)
 {
-char n;
-char nn = '0';
-char nnn[2] = {'1', '0'};
-char nnnn[2] = {'1', '4'};
-for (n = '0'; n <= nnn[2]; n++)
-while (nn <= nnnn[2])
+int n = 0;
+int n1 = 0;
+
+while (n <= 9)
 {
-n++;
-_putchar(n);
+while (n1 <= 14)
+	{
+if (n1 > 9)
+_putchar(n1 / 10 + '0');
+_putchar(n1 % 10 + '0');
+n1++;
+
+}
 _putchar('\n');
+n++;
+n1 = 0;
 }
 }

@@ -14,7 +14,7 @@ for (n = '0'; n <= nnn[2]; n++)
 while (nn <= nnnn[2])
 {
 _putchar(n);
-i++;
+n++;
 _putchar('\n');
 }
 }

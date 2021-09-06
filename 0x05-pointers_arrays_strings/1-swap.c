@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-*swap_int = swaps values of ints
+*swap_int - swaps values of intgers
 *
 *@a: first int
 *@b:second int

@@ -8,6 +8,6 @@
 
 void print_rev(char *s)
 {
-puts(strrev(s));
-puts("\n");
+printf(strrev(s));
+printf('\n');
 }

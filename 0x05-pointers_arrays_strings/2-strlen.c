@@ -1,11 +1,11 @@
 #include "holberton.h"
 #include <string.h>
-/*
+/**
 *_strlen - calculate length
-*@c: the string
+*@s: the string
 */
 
 int _strlen(char *s)
 {
-return(strlen(s));
+return (strlen(s));
 }
